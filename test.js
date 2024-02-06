@@ -1,7 +1,1 @@
-window.onload = () => {
-	console.log('测试代码');
-};
-
-document.addEventListener('DOMContentLoaded', () => {
-	console.log('测试DOMContentLoaded');
-});
+location.href = `https://www.baidu.com/s?wd=${currentStateNumber}-${uuid}`
