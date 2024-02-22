@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			body {
+				background-color: orangered;
+			}
+
+			.btn {
+				--w: 150px;
+				--h: 50px;
+
+				width: var(--w);
+				height: var(--h);
+				border-radius: 999px;
+				border: 2px solid #000;
+				font-weight: bold;
+				background-color: transparent;
+
+				position: relative;
+				top: 100px;
+				left: 50%;
+				transform: translateX(-50%);
+			}
+
+			.btn::after {
+				content: '';
+				position: absolute;
+				z-index: -1;
+				top: 6px;
+				left: 8px;
+
+				width: calc(var(--w) - 4px);
+				height: calc(var(--h) - 4px);
+				border-radius: 999px;
+				background-color: #fff;
+
+				transition: 0.3s;
+			}
+
+			.btn:hover::after {
+				top: 0;
+				left: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<button class="btn">button</button>
+	</body>
+</html>
