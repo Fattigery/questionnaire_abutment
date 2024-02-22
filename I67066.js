@@ -9,8 +9,6 @@ let arid = {
 	3: ``
 };
 
-console.log('你好啊', currentStateNumber, arid);
-
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 if (sid) {
 	skip(eval(sid)?.[currentStateNumber]);
