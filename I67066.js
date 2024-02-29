@@ -9,6 +9,12 @@ let arid = {
 	3: `http://medpaneljunction.surveybackoffice.com/endcapture.php?cada=MTEwODgtYldWa2NHRnVaV3hxZFc1amRHbHZiZz09&st=333`
 };
 
+let brid = {
+	1: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A4959&status=1`,
+	2: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A4959&status=2`,
+	3: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A4959&status=3`
+};
+
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 if (sid) {
 	skip(eval(sid)?.[currentStateNumber]);
