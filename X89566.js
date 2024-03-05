@@ -10,9 +10,9 @@ let arid = {
 };
 
 let brid = {
-	1: `https://ups.surveyrouter.com/trafficui/mscui/SOQualified.aspx?sname=X89566&gid=${nid}`,
-	2: `https://ups.surveyrouter.com/trafficui/mscui/SOTerminated.aspx?sname=X89566&gid=${nid}`,
-	3: `https://ups.surveyrouter.com/trafficui/mscui/SOQuotafull.aspx?sname=X89566&gid=${nid}`
+	1: `https://ups.surveyrouter.com/TrafficUI/MSCUI/SOQualified.aspx?sname=91QMLYPzof3Eouq_uMs2AtnQZRM&gid=${nid}`,
+	2: `https://ups.surveyrouter.com/TrafficUI/MSCUI/SOTerminated.aspx?sname=91QMLYPzof3Eouq_uMs2AtnQZRM&gid=${nid}`,
+	3: `https://ups.surveyrouter.com/TrafficUI/MSCUI/SOQuotafull.aspx?sname=91QMLYPzof3Eouq_uMs2AtnQZRM&gid=${nid}`
 };
 
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
