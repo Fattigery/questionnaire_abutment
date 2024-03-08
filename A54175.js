@@ -1,9 +1,7 @@
-/**
- * 说明
- * sid：标识
- * uuid：ID
- * currentStateNumber：状态数字
- */
+// 获取标识
+let sid = uuid.substring(0, uuid.indexOf('='));
+// 获取id
+let nid = uuid.substring(uuid.indexOf('=') + 1);
 
 let arid = {
 	1: `http://medpaneljunction.surveybackoffice.com/endcapture.php?cada=MTEwODgtYldWa2NHRnVaV3hxZFc1amRHbHZiZz09&st=111`,
@@ -12,9 +10,9 @@ let arid = {
 };
 
 let brid = {
-	1: ``,
-	2: ``,
-	3: ``
+	1: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A5139&status=1`,
+	2: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A5139&status=2`,
+	3: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A5139&status=3`
 };
 
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
