@@ -4,9 +4,9 @@ let sid = uuid.substring(0, uuid.indexOf('='));
 let nid = uuid.substring(uuid.indexOf('=') + 1);
 
 let arid = {
-	1: ``,
-	2: ``,
-	3: ``
+	1: `https://www.drsay.cn/bk/s/14073_5bb9217143b8b465?uid=${nid}`,
+	2: `https://www.drsay.cn/bk/s/14073_b2e11cca0bc91173?uid=${nid}`,
+	3: `https://www.drsay.cn/bk/s/14073_6037f972e3a810da?uid=${nid}`
 };
 
 let brid = {
