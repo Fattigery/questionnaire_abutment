@@ -53,6 +53,7 @@ if (scid) {
 
 // 跳转函数
 function skip(url) {
+	console.log(url);
 	if (url == '') return;
 	location.href = url;
 }
