@@ -22,7 +22,7 @@ try {
 	eval(sid);
 	// 如果变量存在，则会执行到这里。
 	console.log('变量存在');
-	skip(eval(sid)?.[stateNumber]);
+	skip(eval(sid)?.[currentStateNumber]);
 } catch (error) {
 	// 如果变量不存在，则会捕获到异常。
 	console.log('变量不存在，只记录id');
