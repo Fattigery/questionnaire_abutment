@@ -10,9 +10,9 @@ let arid = {
 };
 
 let brid = {
-	1: ``,
-	2: ``,
-	3: ``
+	1: `http://invitoresearch.com/redirect/endpage/Success.php?PID=INVTS69679&UID=${nid}`,
+	2: `http://invitoresearch.com/redirect/endpage/screenout.php?PID=INVTS69679&UID=${nid}`,
+	3: `http://invitoresearch.com/redirect/endpage/over-quota.php?PID=INVTS69679&UID=${nid}`
 };
 
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
