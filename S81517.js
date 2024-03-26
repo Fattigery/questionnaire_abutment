@@ -1,8 +1,8 @@
 // uuid：arid=VALUE
 // 获取标识
-let sid = uuid.substring(0, uuid.indexOf('='));
+let sid = uuid.substring(0, uuid.indexOf('x'));
 // 获取id
-let nid = uuid.substring(uuid.indexOf('=') + 1);
+let nid = uuid.substring(uuid.indexOf('x') + 1);
 
 let app = {
 	1: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A5343&status=1`,
@@ -19,7 +19,7 @@ try {
 	skip(eval(sid)?.[stateNumber]);
 } catch (error) {
 	// 如果变量不存在，则会捕获到异常。
-	console.log('变量不存在或链接获取失败');
+	console.log('变量不存在');
 }
 
 function skip(url) {
