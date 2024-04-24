@@ -11,9 +11,9 @@ let arid = {
 };
 
 let brid = {
-	1: ``,
-	2: ``,
-	3: ``
+	1: `https://pixel-research.com/survey/complete`,
+	2: `https://pixel-research.com/survey/sorry`,
+	3: `https://pixel-research.com/survey/quota`
 };
 
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
