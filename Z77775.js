@@ -11,6 +11,12 @@ let arid = {
 };
 
 let brid = {
+	1: ``,
+	2: ``,
+	3: ``
+};
+
+let crid = {
 	1: `https://pixel-research.com/survey/complete`,
 	2: `https://pixel-research.com/survey/sorry`,
 	3: `https://pixel-research.com/survey/quota`
