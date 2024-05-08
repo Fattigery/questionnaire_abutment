@@ -10,6 +10,10 @@ let S81517 = {
 	a: `https://s1.intellisurvey.com/pub/is029027m?pan=218&d1=1&o1=2&co=8&trans_id=appx${uid}`
 };
 
+let R45511 = {
+	a: `https://hub.m3globalresearch.com/welcome/U10NOSQ7PGB1GNV5/?user_id=app=${uid}`
+};
+
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 检测是否有对应的变量
