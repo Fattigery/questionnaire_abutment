@@ -14,6 +14,10 @@ let R45511 = {
 	a: `https://hub.m3globalresearch.com/welcome/U10NOSQ7PGB1GNV5/?user_id=app=${uid}`
 };
 
+let R57156 = {
+	a: `https://hub.m3globalresearch.com/welcome/RXZROFJ9TQ3WOR7U/?user_id=app=${uid}`
+};
+
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 检测是否有对应的变量
