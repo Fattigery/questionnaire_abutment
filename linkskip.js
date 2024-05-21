@@ -15,7 +15,8 @@ let R45511 = {
 };
 
 let R57156 = {
-	a: `https://hub.m3globalresearch.com/welcome/RXZROFJ9TQ3WOR7U/?user_id=app=${uid}`
+	a: `https://hub.m3globalresearch.com/welcome/RXZROFJ9TQ3WOR7U/?user_id=app=${uid}`,
+	b: `https://hub.m3globalresearch.com/welcome/IJ4K5U6J0XUP49H4/?user_id=app2=${uid}`
 };
 
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
