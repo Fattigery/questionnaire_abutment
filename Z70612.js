@@ -4,7 +4,7 @@ let sid = uuid.substring(0, uuid.indexOf('='));
 // 获取id
 let nid = uuid.substring(uuid.indexOf('=') + 1);
 
-let arid = {
+let Merid = {
 	1: `http://medpaneljunction.surveybackoffice.com/endcapture.php?cada=MTEwODgtYldWa2NHRnVaV3hxZFc1amRHbHZiZz09&st=111`,
 	2: `http://medpaneljunction.surveybackoffice.com/endcapture.php?cada=MTEwODgtYldWa2NHRnVaV3hxZFc1amRHbHZiZz09&st=222`,
 	3: `http://medpaneljunction.surveybackoffice.com/endcapture.php?cada=MTEwODgtYldWa2NHRnVaV3hxZFc1amRHbHZiZz09&st=333`
