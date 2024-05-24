@@ -19,6 +19,10 @@ let R57156 = {
 	b: `https://hub.m3globalresearch.com/welcome/IJ4K5U6J0XUP49H4/?user_id=app2=${uid}`
 };
 
+let X50893 = {
+	a: `https://singapore.decipherinc.com/survey/selfserve/55f/240412?list=9&userid=app=${uid}&decLang=simplifiedchinese`
+};
+
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 检测是否有对应的变量
