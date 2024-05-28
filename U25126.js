@@ -16,6 +16,12 @@ let brid = {
 	3: `http://sample-polls.net//Quotafull.php?PID=SNSU25126&UID=${nid}`
 };
 
+let crid = {
+	1: `https://surveys.universalresearchpanels.com/newdesign/site/Universalresearchpanels/lp.php?q=26071&qresult=8404ce5f5269775889d190f9b3cc1113&id=${nid}`,
+	2: `https://surveys.universalresearchpanels.com/newdesign/site/Universalresearchpanels/lp.php?q=26071&qresult=d9a1d73b400553ab491562054052dbe6&id=${nid}`,
+	3: `https://surveys.universalresearchpanels.com/newdesign/site/Universalresearchpanels/lp.php?q=26071&qresult=c6614f42f414d717803e2cdc491bb7db&id=${nid}`
+};
+
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 如果sid为假（为空），则抛出异常。
