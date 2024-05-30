@@ -28,7 +28,7 @@ section .flex:has(img.border-\[1px\]) {
 
 /* 代码块 */
 /* 注释文本颜色 */
-.cm-s-default .cm-comment {
+.cm-s-ayu-dark span.cm-comment{
 	color: #7e848f;
 	font-style: italic;
 }
