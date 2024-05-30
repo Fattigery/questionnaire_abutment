@@ -46,21 +46,13 @@ let BR = {};
 let DE = {};
 
 // 获取对应的链接并跳转
-if (scid) {
-	hiddenEl();
+if (project?.scid) {
 	skip(eval(project)?.[scid]?.[currentStateNumber]);
 }
 
 // 跳转函数
 function skip(url) {
 	console.log(url);
-	if (url == '') return;
+	if (!url) return;
 	location.href = url;
-}
-
-function hiddenEl() {
-	let textEL = document.querySelector('#text');
-	if (textEL) {
-		textEL.style.display = 'none';
-	}
 }
