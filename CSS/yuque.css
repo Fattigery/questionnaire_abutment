@@ -11,6 +11,7 @@ ne-code ne-code-content {
   margin: 0 !important;
   font-size: 0.875em !important;
   border: none !important;
+  color: #3451b2;
 }
 
 /* 行内代码块文本偏上的问题 */
@@ -31,7 +32,7 @@ ne-code-content > ne-text {
 }
 .ne-codeblock .ne-codeblock-inner .cm-scroller,
 .ne-codeblock .ne-codeblock-content .cm-scroller {
-  font-family: "Fira Code", "Jetbrains Mono", Consolas, "阿里巴巴普惠体 3.0" !important;
+  font-family: Consolas,"Fira Code", "Jetbrains Mono", "阿里巴巴普惠体 3.0" !important;
 }
 
 /* 修改:::info */
