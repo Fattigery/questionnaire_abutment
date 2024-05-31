@@ -1,0 +1,59 @@
+/* wolai style */
+
+/* a标签文本颜色 */
+/* a {
+  color: #336df4 !important;
+} */
+
+/* a标签border-bottom颜色 */
+/* a._2KpxS {
+  border-bottom: none !important;
+}
+a._2KpxS:hover {
+  border-bottom: 1px solid #336df4 !important;
+} */
+
+/* 代码块圆角 */
+._1eSK3 {
+  border-radius: 0px !important;
+}
+
+/* 引述文字颜色、引述文字下层文本的颜色、无序列表下层文本的颜色 ,.meM6O .sub-node-container .node-container._7ayis._3J08D,.sub-node-container .node-container._7ayis._3J08D */
+.content-editable[placeholder="引述文字"] > :is(span, :not(a)) {
+  color: #8a8f8d;
+}
+
+/* img阴影 */
+.node-image-container {
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15) !important;
+  margin: 5px 0 !important;
+}
+
+/* 代码块外边距 */
+.node-container:has(.code-node-wrapper) {
+  margin-top: 8px !important;
+}
+
+/* 代码块注释斜体 */
+.token.comment {
+  font-style: italic !important;
+}
+
+/* img描述上边框线 */
+/* ._2hMpN{border-top: 1px solid rgba(0,0,0,.1) !important;} */
+
+/* 行内代码字体 */
+.inline-code-node {
+  font-family: Consolas, "Fira Code", "阿里巴巴普惠体 3.0", "PingFang SC" !important;
+}
+
+/* 代码块代码字体 */
+._29gP_,
+.code-node-wrapper .content-editable {
+  font-family: Consolas, "Fira Code", "Jetbrains Mono", "阿里巴巴普惠体 3.0" !important;
+}
+
+/* 行高调整 26px -> 30px */
+._2VNwp {
+  line-height: 30px !important;
+}

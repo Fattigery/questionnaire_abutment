@@ -1,0 +1,80 @@
+/* yuque style */
+/* 取消img的圆角 */
+.ne-image-wrap .ne-image-box,
+.ne-image-wrap .ne-image-box img {
+  border-radius: 0 !important;
+}
+
+/* 修改行内代码块字体与内边距 */
+ne-code ne-code-content {
+  padding: 3px 6px !important;
+  margin: 0 !important;
+  font-size: 0.875em !important;
+  border: none !important;
+}
+
+/* 行内代码块文本偏上的问题 */
+/* ne-code-content ne-text{vertical-align: -1px !important;}  */
+
+/* 取消标题行内代码块的加粗 */
+ne-code-content > ne-text {
+  font-weight: 400 !important;
+}
+
+/* a链接的border-bottom */
+/* article#content a,ne-link-content ne-text{border-bottom: 1px solid #117CEE !important}  */
+
+/* 代码块的注释斜体和字体 */
+.ne-codeblock .ne-codeblock-inner .cm-line .cm-comment,
+.ne-codeblock .ne-codeblock-content .cm-line .cm-comment {
+  font-style: italic !important;
+}
+.ne-codeblock .ne-codeblock-inner .cm-scroller,
+.ne-codeblock .ne-codeblock-content .cm-scroller {
+  font-family: "Fira Code", "Jetbrains Mono", Consolas, "阿里巴巴普惠体 3.0" !important;
+}
+
+/* 修改:::info */
+ne-alert-hole ne-alert {
+  position: relative;
+  border-radius: 6px !important;
+  transition: border 0.3s;
+  padding: 12px;
+}
+
+/* :::info wanrning */
+ne-alert-hole ne-alert[ne-alert-type="warning"] {
+  background-color: #fff5eb !important;
+}
+
+/* :::info tips */
+ne-alert-hole ne-alert[ne-alert-type="tips"] {
+  background-color: #f9f9f9 !important;
+}
+
+/* :::info的hover border color */
+/* .ne-viewer ne-alert:hover{border: 1px solid #fed4a4 !important;}  */
+/* 给:::info添加图标 */
+/* ne-alert-hole ne-alert::before{content: '💡';position: absolute;left:8px;}  */
+
+/* table表格滚动条 */
+ne-table-inner-wrap {
+  scrollbar-color: initial !important;
+}
+
+ne-table-inner-wrap::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* code代码块滚动条 */
+[data-card-name="codeblock"] .cm-scroller::-webkit-scrollbar {
+  height: 0 !important;
+}
+
+/* li的padding-left */
+ne-oli[ne-level="1"],
+ne-tli[ne-level="1"],
+ne-uli[ne-level="1"] {
+  padding-left: calc(2em + 20px) !important;
+}
