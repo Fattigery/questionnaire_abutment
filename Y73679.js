@@ -4,7 +4,7 @@ let sid = uuid.substring(0, uuid.indexOf('='));
 // 获取id
 let nid = uuid.substring(uuid.indexOf('=') + 1);
 
-let Darid = {
+let arid = {
 	1: `https://d8aspring.post-survey.com/ans/back/?key=jlqLpShu&status=comp&uid=${nid}`,
 	2: `https://d8aspring.post-survey.com/ans/back/?key=jlqLpShu&status=scrout&uid=${nid}`,
 	3: `https://d8aspring.post-survey.com/ans/back/?key=jlqLpShu&status=quotafull&uid=${nid}`
