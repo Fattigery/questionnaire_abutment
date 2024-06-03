@@ -23,6 +23,10 @@ let X50893 = {
 	a: `https://singapore.decipherinc.com/survey/selfserve/55f/240412?list=9&userid=app=${uid}&decLang=simplifiedchinese`
 };
 
+let K58113 = {
+	a: ``
+};
+
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 检测是否有对应的变量
@@ -30,7 +34,8 @@ try {
 	// 如果存在，则跳转
 	skip(eval(project)?.[mark]);
 } catch (error) {
-	console.log('不存在对应的project项目对象');
+	let endIndex = error.message.indexOf('is not defined') - 1;
+	console.log(`不存在${error.message.substring(0, endIndex)}项目对象`);
 }
 
 function skip(url) {
