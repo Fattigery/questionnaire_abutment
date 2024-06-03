@@ -22,12 +22,6 @@ let brid = {
 	3: ``
 };
 
-if (sid) {
-	skip(eval(sid)?.[stateNumber]);
-} else {
-	skip(arid[stateNumber]);
-}
-
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 如果uid为空（没有id），则抛出异常。
