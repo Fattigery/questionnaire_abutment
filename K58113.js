@@ -4,11 +4,11 @@ let sid = uuid.substring(0, uuid.indexOf('='));
 // 获取id
 let nid = uuid.substring(uuid.indexOf('=') + 1);
 
-let arid = {
-	1: `https://message.insight.rakuten.com/survey/Spassback.do?pid=c9f0c1a34c2f4f69&uid=${nid}&st=c`,
-	2: `https://message.insight.rakuten.com/survey/Spassback.do?pid=c9f0c1a34c2f4f69&uid=${nid}&st=s`,
-	3: `https://message.insight.rakuten.com/survey/Spassback.do?pid=c9f0c1a34c2f4f69&uid=${nid}&st=q`
-};
+// let arid = {
+// 	1: `https://message.insight.rakuten.com/survey/Spassback.do?pid=c9f0c1a34c2f4f69&uid=${nid}&st=c`,
+// 	2: `https://message.insight.rakuten.com/survey/Spassback.do?pid=c9f0c1a34c2f4f69&uid=${nid}&st=s`,
+// 	3: `https://message.insight.rakuten.com/survey/Spassback.do?pid=c9f0c1a34c2f4f69&uid=${nid}&st=q`
+// };
 
 let app = {
 	1: `https://api.catpanel.cn/business/renwu/design/call/otherSuccessUrl?surveyId=1004369912212226048&uid=${nid}`,
@@ -36,7 +36,7 @@ try {
 		skip(eval(sid)?.[stateNumber]);
 	} else {
 		console.log('sid没有值，nid有值');
-		skip(arid[stateNumber]);
+		// skip(arid[stateNumber]);
 	}
 } catch (error) {
 	// 如果捕获到异常，则会执行到这里。
