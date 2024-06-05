@@ -16,6 +16,12 @@ let brid = {
 	3: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A6297&status=3`
 };
 
+let crid = {
+	1: `https://tally.so/r/mB11oY`,
+	2: `https://tally.so/r/meAAOo`,
+	3: `https://tally.so/r/waxxJy`
+};
+
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 如果sid为假（为空），则抛出异常。
