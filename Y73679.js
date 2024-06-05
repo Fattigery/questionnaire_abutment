@@ -11,9 +11,9 @@ let arid = {
 };
 
 let brid = {
-	1: ``,
-	2: ``,
-	3: ``
+	1: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A6297&status=1`,
+	2: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A6297&status=2`,
+	3: `https://3asresearchsolutions.in/PMT/public/admin/c2s?pcode=${nid}&pnum=AC30-A6297&status=3`
 };
 
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
