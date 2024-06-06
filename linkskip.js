@@ -24,7 +24,7 @@ let X50893 = {
 };
 
 let K58113 = {
-	a: ``
+	a: `https://www.expertsmarketresearch.com/panel/05f34eaa-f08d-48bb-adc4-1989c29704a4/app=${uid}`
 };
 
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
