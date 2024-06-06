@@ -11,9 +11,9 @@ let arid = {
 };
 
 let brid = {
-	1: `https://message.insight.rakuten.com/survey/Spassback.do?pid=92c8460ab58bcef1&uid=${nid}&st=c`,
-	2: `https://message.insight.rakuten.com/survey/Spassback.do?pid=92c8460ab58bcef1&uid=${nid}&st=s`,
-	3: `https://message.insight.rakuten.com/survey/Spassback.do?pid=92c8460ab58bcef1&uid=${nid}&st=q`
+	1: `https://message.insight.rakuten.com/survey/Spassback.do?pid=e4f86ac8728ccccb&uid=${nid}&st=c`,
+	2: `https://message.insight.rakuten.com/survey/Spassback.do?pid=e4f86ac8728ccccb&uid=${nid}&st=s`,
+	3: `https://message.insight.rakuten.com/survey/Spassback.do?pid=e4f86ac8728ccccb&uid=${nid}&st=q`
 };
 
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
