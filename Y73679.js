@@ -17,9 +17,9 @@ let brid = {
 };
 
 let crid = {
-	1: `https://tally.so/r/mB11oY`,
-	2: `https://tally.so/r/meAAOo`,
-	3: `https://tally.so/r/waxxJy`
+	1: `https://tally.so/r/mB11oY?euid=${nid}`,
+	2: `https://tally.so/r/meAAOo?euid=${nid}`,
+	3: `https://tally.so/r/waxxJy?euid=${nid}`
 };
 
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
