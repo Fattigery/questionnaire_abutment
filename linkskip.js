@@ -27,6 +27,10 @@ let K58113 = {
 	a: `https://www.expertsmarketresearch.com/panel/05f34eaa-f08d-48bb-adc4-1989c29704a4/app=${uid}`
 };
 
+let G71731 = {
+	a: `https://hub.m3globalresearch.com/welcome/ITN9XII05YPOC9D5/?user_id=app=${uid}`
+};
+
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	// 检测是否有对应的变量
