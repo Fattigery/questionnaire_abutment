@@ -10,11 +10,13 @@ let arid = {
 	3: `https://irconsortium.com/thanks?status=q&guid=${nid}`
 };
 
-let brid = {
-	1: ``,
-	2: ``,
-	3: ``
+let brid, crid, drid;
+brid = {
+	1: `https://globalmarketsurvey.com/surveyProcess.php?authToken=f89a77e013b5f9fe936eb8ec83ec0dfa`,
+	2: `https://globalmarketsurvey.com/surveyProcess.php?authToken=a672a2fd70c84fcade79d6a16408b1fc`,
+	3: `https://globalmarketsurvey.com/surveyProcess.php?authToken=c8c368a142402dd0f16694a7c996f0b8`
 };
+drid = crid = brid;
 
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
