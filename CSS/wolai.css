@@ -1,5 +1,28 @@
 /* wolai style */
 
+:root {
+  --wolai-code-text-shadow: #222;
+  --wolai-code-node-color: #f8f8f8;
+  --wolai-code-node-bg: #282a36;
+  --wolai-code-node-btn-bg: rgba(52, 54, 70, 0.851);
+  --wolai-code-attr-name: #50fa7b;
+  --wolai-code-attr-value: #f1fa8c;
+  --wolai-code-boolean: #bd93f9;
+  --wolai-code-cdata: #909faf;
+  --wolai-code-class-name: #8be9fd;
+  --wolai-code-doctype-tag: #ff79c6;
+  --wolai-code-function: #50fa7b;
+  --wolai-code-important: #ff79c6;
+  --wolai-code-keyword: #ff79c6;
+  --wolai-code-name: #ff79c6;
+  --wolai-code-operator: #8be9fd;
+  --wolai-code-parameter: #ff79c6;
+  --wolai-code-punctuation: #f8f8f2;
+  --wolai-code-string: #f1fa8c;
+  --wolai-code-tag: #ff79c6;
+}
+
+
 /* a标签文本颜色 */
 /* a {
   color: #336df4 !important;
