@@ -22,6 +22,11 @@
   --wolai-code-tag: #ff79c6;
 }
 
+/* 修改代码块中光标的闪烁颜色 */
+wolai-code-wrapper .content-editable, .wolai-code-wrapper .content-editable * {
+  caret-color: rgba(255, 255, 255, 0.7);
+}
+
 
 /* a标签文本颜色 */
 /* a {
