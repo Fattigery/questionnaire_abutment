@@ -33,7 +33,13 @@ let G71731 = {
 
 let X83764 = {
 	a: `https://hub.m3globalresearch.com/welcome/QIRT0D41CNL23ORA/?user_id=app=${uid}`
-}
+};
+
+let R24951 = {
+	a: `https://hub.m3globalresearch.com/welcome/WGPNPIP5PNEY6IGK/?user_id=app1=${uid}`,
+	b: `https://hub.m3globalresearch.com/welcome/4TA4DWUEEG66WN8S/?user_id=app2=${uid}`,
+	c: `https://hub.m3globalresearch.com/welcome/4EB10NXI7AC0IQV7/?user_id=app3=${uid}`
+};
 
 // 如果有标识才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {

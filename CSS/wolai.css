@@ -1,5 +1,6 @@
 /* wolai style */
 
+/* 对明亮模式下的代码块应用暗色模式下的样式 */
 :root {
   --wolai-code-text-shadow: #222;
   --wolai-code-node-color: #f8f8f8;

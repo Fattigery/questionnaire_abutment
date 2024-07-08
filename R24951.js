@@ -4,10 +4,22 @@ let sid = uuid.substring(0, uuid.indexOf('='));
 // 获取id
 let nid = uuid.substring(uuid.indexOf('=') + 1);
 
-let uid = {
+let app1 = {
 	1: `https://api.catpanel.cn/business/renwu/design/call/otherSuccessUrl?surveyId=1016989374727847936&uid=${nid}`,
 	2: `https://api.catpanel.cn/business/renwu/design/call/otherFailUrl?surveyId=1016989374727847936&uid=${nid}`,
 	3: `https://api.catpanel.cn/business/renwu/design/call/otherQuotaFull?surveyId=1016989374727847936&uid=${nid}`
+};
+
+let app2 = {
+	1: `https://api.catpanel.cn/business/renwu/design/call/otherSuccessUrl?surveyId=1016993258611408897&uid=${nid}`,
+	2: `https://api.catpanel.cn/business/renwu/design/call/otherFailUrl?surveyId=1016993258611408897&uid=${nid}`,
+	3: `https://api.catpanel.cn/business/renwu/design/call/otherQuotaFull?surveyId=1016993258611408897&uid=${nid}`
+};
+
+let app3 = {
+	1: `https://api.catpanel.cn/business/renwu/design/call/otherSuccessUrl?surveyId=1016994002035015680&uid=${nid}`,
+	2: `https://api.catpanel.cn/business/renwu/design/call/otherFailUrl?surveyId=1016994002035015680&uid=${nid}`,
+	3: `https://api.catpanel.cn/business/renwu/design/call/otherQuotaFull?surveyId=1016994002035015680&uid=${nid}`
 };
 
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
