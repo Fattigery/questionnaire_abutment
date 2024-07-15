@@ -2,7 +2,7 @@
 
 /* 对明亮模式下的代码块应用暗色模式下的样式 */
 :root {
-  --wolai-code-text-shadow: #222;
+  /* --wolai-code-text-shadow: #222;
   --wolai-code-node-color: #f8f8f8;
   --wolai-code-node-bg: #282a36;
   --wolai-code-node-btn-bg: rgba(52, 54, 70, 0.851);
@@ -20,7 +20,7 @@
   --wolai-code-parameter: #ff79c6;
   --wolai-code-punctuation: #f8f8f2;
   --wolai-code-string: #f1fa8c;
-  --wolai-code-tag: #ff79c6;
+  --wolai-code-tag: #ff79c6; */
 }
 
 /* 修改代码块中光标的闪烁颜色 */
