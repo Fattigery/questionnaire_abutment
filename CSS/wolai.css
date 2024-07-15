@@ -24,9 +24,9 @@
 }
 
 /* 修改代码块中光标的闪烁颜色 */
-.wolai-code-wrapper .content-editable, .wolai-code-wrapper .content-editable * {
+/* .wolai-code-wrapper .content-editable, .wolai-code-wrapper .content-editable * {
   caret-color: rgba(255, 255, 255, 0.7);
-}
+} */
 
 
 /* a标签文本颜色 */
@@ -43,9 +43,9 @@ a._2KpxS:hover {
 } */
 
 /* 代码块圆角 */
-._1eSK3 {
+/* ._1eSK3 {
   border-radius: 0px !important;
-}
+} */
 
 /* 引述文字颜色、引述文字下层文本的颜色、无序列表下层文本的颜色 ,.meM6O .sub-node-container .node-container._7ayis._3J08D,.sub-node-container .node-container._7ayis._3J08D */
 .content-editable[placeholder="引述文字"] > :is(span, :not(a)) {
