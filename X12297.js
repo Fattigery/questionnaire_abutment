@@ -16,6 +16,12 @@ let brid = {
 	3: `http://www.datibar.com/cathsuerysback.do?uid=${nid}&pid=X12297&status=Q`
 };
 
+let uid = {
+	1:`https://api.catpanel.cn/business/renwu/design/call/otherSuccessUrl?surveyId=1019993596012527616&uid=${uuid}`,
+	2:`https://api.catpanel.cn/business/renwu/design/call/otherFailUrl?surveyId=1019993596012527616&uid=${uuid}`
+	3:`https://api.catpanel.cn/business/renwu/design/call/otherQuotaFull?surveyId=1019993596012527616&uid=${uuid}`
+}
+
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	if (!sid && !nid) {
@@ -36,6 +42,9 @@ try {
 		 *  - 情况二：供应商对接没有标识（只能有一个）
 		 */
 		console.log('sid没有值，nid有值');
+		console.log(uid[stateNumber]);
+		// app
+		skip(uid[stateNumber])
 	}
 } catch (error) {
 	// 如果捕获到异常，则会执行到这里。
