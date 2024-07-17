@@ -10,6 +10,12 @@ let arid = {
 	3: `https://irconsortium.com/thanks?status=q&guid=${nid}`
 };
 
+let brid = {
+	1: `http://invitoresearch.com/redirect/endpage/Success.php?PID=INVTW65811&UID=${nid}`,
+	2: `http://invitoresearch.com/redirect/endpage/screenout.php?PID=INVTW65811&UID=${nid}`,
+	3: `http://invitoresearch.com/redirect/endpage/over-quota.php?PID=INVTW65811&UID=${nid}`
+};
+
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	if (!sid && !nid) {
