@@ -42,9 +42,6 @@ try {
 		 *  - 情况二：供应商对接没有标识（只能有一个）
 		 */
 		console.log('sid没有值，nid有值');
-		// console.log(uid[stateNumber]);
-		// // app
-		// skip(uid[stateNumber]);
 	}
 } catch (error) {
 	// 如果捕获到异常，则会执行到这里。
