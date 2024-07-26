@@ -11,9 +11,9 @@ let arid = {
 };
 
 let brid = {
-	1: ``,
-	2: ``,
-	3: ``
+	1: `https://message.insight.rakuten.com/survey/Spassback.do?pid=0d2d990699aa88f0&uid=${nid}&st=c`,
+	2: `https://message.insight.rakuten.com/survey/Spassback.do?pid=0d2d990699aa88f0&uid=${nid}&st=s`,
+	3: `https://message.insight.rakuten.com/survey/Spassback.do?pid=0d2d990699aa88f0&uid=${nid}&st=q`
 };
 
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
