@@ -22,6 +22,12 @@ let app3 = {
 	3: `https://api.catpanel.cn/business/renwu/design/call/otherQuotaFull?surveyId=1016994002035015680&uid=${nid}`
 };
 
+let app4 = {
+	1: `https://api.catpanel.cn/business/renwu/design/call/otherSuccessUrl?surveyId=1029698891794087936&uid=${nid}`,
+	2: `https://api.catpanel.cn/business/renwu/design/call/otherFailUrl?surveyId=1029698891794087936&uid=${nid}`,
+	3: `https://api.catpanel.cn/business/renwu/design/call/otherQuotaFull?surveyId=1029698891794087936&uid=${nid}`
+};
+
 // 如果有标识并且有对应的变量才跳转（说明有对应的对接链接），否则不跳转，后台只记录id
 try {
 	if (!sid && !nid) {
